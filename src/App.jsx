@@ -18,27 +18,27 @@ function App() {
 						</div>
 						<div className='bottom__box-content'>
 							<div className='bottom__box-content-color'></div>
-							<p className='bottom__box-content-text'>mon</p>
+							<p className='bottom__box-content-text'>tue</p>
 						</div>
 						<div className='bottom__box-content'>
 							<div className='bottom__box-content-color'></div>
-							<p className='bottom__box-content-text'>mon</p>
+							<p className='bottom__box-content-text'>wed</p>
 						</div>
 						<div className='bottom__box-content'>
 							<div className='bottom__box-content-color'></div>
-							<p className='bottom__box-content-text'>mon</p>
+							<p className='bottom__box-content-text'>thu</p>
 						</div>
 						<div className='bottom__box-content'>
 							<div className='bottom__box-content-color'></div>
-							<p className='bottom__box-content-text'>mon</p>
+							<p className='bottom__box-content-text'>fri</p>
 						</div>
 						<div className='bottom__box-content'>
 							<div className='bottom__box-content-color'></div>
-							<p className='bottom__box-content-text'>mon</p>
+							<p className='bottom__box-content-text'>sat</p>
 						</div>
 						<div className='bottom__box-content'>
 							<div className='bottom__box-content-color'></div>
-							<p className='bottom__box-content-text'>mon</p>
+							<p className='bottom__box-content-text'>sun</p>
 						</div>
 					</div>
 					<div className='bottom__bot'>

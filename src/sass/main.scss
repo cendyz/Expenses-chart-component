@@ -12,8 +12,146 @@
 body {
 	display: flex;
 	justify-content: center;
+	align-items: center;
+	font-family: "DM Sans", serif;
+	background-color: var(--cream);
 }
 
+.main {
+	margin: 5vw 0;
+	width: 90vw;
+}
+
+.top,
+.bottom {
+	padding: 3.8vw;
+	border-radius: 2.2vw;
+}
+
+.top {
+	margin-bottom: 2.5vw;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: var(--soft-red);
+
+	&__left {
+		color: var(--very-pale-orange);
+
+		&-balance {
+			margin-bottom: 1.7vw;
+			font-size: 3.5vw;
+		}
+
+		&-price {
+			font-size: 6vw;
+			font-weight: 700;
+		}
+	}
+
+	&__right {
+		width: 13vw;
+	}
+}
+
+.bottom {
+	background-color: var(--very-pale-orange);
+
+	&__title {
+		margin-bottom: 13vw;
+		color: var(--dark-brown);
+		font-size: 6.5vw;
+	}
+
+	&__box {
+		padding-bottom: 7vw;
+		margin-bottom: 8vw;
+		display: flex;
+		justify-content: space-between;
+		border-bottom: 1px solid var(--cream);
+
+		&-content {
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-end;
+			&-color {
+				width: 9.333vw; 
+				height: 13.333vw; 
+				background-color: var(--soft-red);
+				border-radius: 1.6vw;
+			}
+			&:nth-child(2) {
+				.bottom__box-content-color {
+					height: 29.333vw;
+				}
+			}
+			&:nth-child(3) {
+				.bottom__box-content-color {
+					height: 45.333vw;
+					background-color: var(--cyan);
+				}
+			}
+			&:nth-child(4) {
+				.bottom__box-content-color {
+					height: 26.133vw;
+				}
+			}
+			&:nth-child(5) {
+				.bottom__box-content-color {
+					height: 18.667vw;
+				}
+			}
+			&:nth-child(6) {
+				.bottom__box-content-color {
+					height: 37.867vw;
+				}
+			}
+			&:nth-child(7) {
+				.bottom__box-content-color {
+					height: 22.4vw;
+				}
+			}
+
+			&-text {
+				margin-top: 1vw;
+				font-size: 3vw;
+				text-align: center;
+				color: var(--medium-brown);
+			}
+		}
+	}
+
+	&__bot {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		&-left {
+			&-total {
+				text-align: center;
+				font-size: 4vw;
+				color: var(--medium-brown);
+			}
+
+			&-price {
+				font-size: 8.8vw;
+				font-weight: 700;
+			}
+		}
+
+		&-right {
+			&-procent {
+				text-align: right;
+				font-size: 5vw;
+				font-weight: 700;
+			}
+			&-last {
+				font-size: 4vw;
+				color: var(--medium-brown);
+			}
+		}
+	}
+}
 
 // - Family: [DM Sans](https://fonts.google.com/specimen/DM+Sans)
 // - Weights: 400, 700
