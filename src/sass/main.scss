@@ -74,12 +74,32 @@ body {
 			display: flex;
 			flex-direction: column;
 			justify-content: flex-end;
+			align-items: center;
+
+			&-info {
+				margin-bottom: 0.5em;
+				padding: 0.4em;
+				border-radius: 0.4em;
+				background-color: var(--dark-brown);
+				color: var(--very-pale-orange);
+				font-size: 1.1rem;
+				visibility: hidden;
+				opacity: 0;
+				transition: visibility 0.2s, opacity 0.2s;
+			}
+
 			&-color {
-				width: 9.333vw; 
-				height: 13.333vw; 
+				width: 9.333vw;
+				height: 13.333vw;
 				background-color: var(--soft-red);
 				border-radius: 1.6vw;
+				transition: background-color 0.2s;
+
+				&:hover {
+					background-color: hsl(10, 85%, 75%);
+				}
 			}
+
 			&:nth-child(2) {
 				.bottom__box-content-color {
 					height: 29.333vw;
@@ -89,6 +109,10 @@ body {
 				.bottom__box-content-color {
 					height: 45.333vw;
 					background-color: var(--cyan);
+
+					&:hover {
+						background-color: hsl(186, 55%, 71%);
+					}
 				}
 			}
 			&:nth-child(4) {
