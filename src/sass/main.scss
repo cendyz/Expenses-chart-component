@@ -19,7 +19,7 @@ body {
 
 .main {
 	margin: 1em 0;
-	width: 338px;
+	width: 21.125em;
 }
 
 .top,
@@ -179,7 +179,7 @@ body {
 
 @media (min-width: 992px) {
 	.main {
-		width: 400px;
+		width: 25em;
 	}
 
 	.top,
@@ -241,8 +241,6 @@ body {
 						height: 6.7rem;
 					}
 				}
-
-				
 			}
 		}
 
@@ -252,8 +250,6 @@ body {
 					text-align: left;
 					font-size: 1.2rem;
 				}
-
-				
 			}
 
 			&-right {
