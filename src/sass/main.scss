@@ -176,3 +176,94 @@ body {
 		}
 	}
 }
+
+@media (min-width: 992px) {
+	.main {
+		width: 400px;
+	}
+
+	.top,
+	.bottom {
+		padding: 1em 1.5em;
+		border-radius: 0.8em;
+	}
+
+	.bottom {
+		&__title {
+			margin-bottom: 0.5em;
+		}
+
+		&__box {
+			&-content {
+				&-info {
+					margin-bottom: 0.5em;
+					padding: 0.5em;
+					border-radius: 0.5em;
+
+					font-size: 1rem;
+				}
+
+				&-color {
+					width: 92%;
+					height: 3.7rem;
+
+					border-radius: 0.4rem;
+				}
+
+				&:nth-child(2) {
+					.bottom__box-content-color {
+						height: 8rem;
+					}
+				}
+				&:nth-child(3) {
+					.bottom__box-content-color {
+						height: 12rem;
+						background-color: var(--cyan);
+					}
+				}
+				&:nth-child(4) {
+					.bottom__box-content-color {
+						height: 7.5rem;
+					}
+				}
+				&:nth-child(5) {
+					.bottom__box-content-color {
+						height: 6rem;
+					}
+				}
+				&:nth-child(6) {
+					.bottom__box-content-color {
+						height: 10rem;
+					}
+				}
+				&:nth-child(7) {
+					.bottom__box-content-color {
+						height: 6.7rem;
+					}
+				}
+
+				
+			}
+		}
+
+		&__bot {
+			&-left {
+				&-total {
+					text-align: left;
+					font-size: 1.2rem;
+				}
+
+				
+			}
+
+			&-right {
+				&-procent {
+					font-size: 1.3rem;
+				}
+				&-last {
+					font-size: 1.2rem;
+				}
+			}
+		}
+	}
+}
