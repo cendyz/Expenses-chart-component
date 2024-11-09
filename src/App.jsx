@@ -3,12 +3,10 @@ import Bottom from "./components/Bottom";
 
 function App() {
 	return (
-		
-			<main className='main'>
-				<Top />
-				<Bottom />
-			</main>
-		
+		<main className='main'>
+			<Top />
+			<Bottom />
+		</main>
 	);
 }
 
